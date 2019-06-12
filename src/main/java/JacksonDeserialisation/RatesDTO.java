@@ -14,7 +14,7 @@ public class RatesDTO {
         return success;
     }
 
-    public void setSuccess(boolean success) {
+    private void setSuccess(boolean success) {
         this.success = success;
     }
 
@@ -22,7 +22,7 @@ public class RatesDTO {
         return timestamp;
     }
 
-    public void setTimestamp(long timestamp) {
+    private void setTimestamp(long timestamp) {
         this.timestamp = timestamp;
     }
 
@@ -30,7 +30,7 @@ public class RatesDTO {
         return base;
     }
 
-    public void setBase(String base) {
+    private void setBase(String base) {
         this.base = base;
     }
 
@@ -38,7 +38,7 @@ public class RatesDTO {
         return date;
     }
 
-    public void setDate(String date) {
+    private void setDate(String date) {
         this.date = date;
     }
 
@@ -46,7 +46,7 @@ public class RatesDTO {
         return rates;
     }
 
-    public void setRates(Map<String, Double> rates) {
+    private void setRates(Map<String, Double> rates) {
         this.rates = rates;
     }
 }
